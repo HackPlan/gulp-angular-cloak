@@ -1,0 +1,37 @@
+{
+  "name": "gulp-angular-cloak",
+  "version": "0.0.1",
+  "description": "Add ng-cloak automatically",
+  "repository": "bolasblack/gulp-angular-cloak",
+  "license": "MIT",
+  "author": [
+    "c4605 <bolasblack@gmail.com>"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "watchTest": "mocha -R spec -w ./tests/*.js",
+    "test": "mocha -R spec ./tests/*.js"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "angular",
+    "ng-cloak",
+    "ng"
+  ],
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "*"
+  }
+}
